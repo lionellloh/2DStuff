@@ -7,20 +7,22 @@ from sklearn import neighbors, datasets
 from scipy.optimize import curve_fit
 import math
 
-
+#
 def func(x, m, c):
 		return m*x+c
 
-files = ["10.txt", "22dot7.txt", "31dot3.txt", "46.txt", "54dot8.txt"]
+files = ["./Data_new/10dot7.txt", "./Data_new/14dot8.txt", "./Data_new/16dot8.txt", "./Data_new/21dot1.txt",
+		 "./Data_new/24dot7.txt","./Data_new/30dot4.txt","./Data_new/35dot0.txt", "./Data_new/50dot8.txt",
+		 "./Data_new/59dot9.txt"]
 collated = {}
 for file in files:
 
 	f = open(file, "r")
 
-	if file == "31dot3.txt":
-		real_temp = 31.3
+	if file == "10dot7.txt":
+		real_temp = 10.7
 
-	elif file == "22dot7.txt":
+	elif file == "14dot8.txt":
 		real_temp = 22.7
 
 	elif file == "54dot8.txt":
@@ -75,10 +77,41 @@ for i in range(5):
 	params, extras = curve_fit(func, X, y)
 	plt.scatter(X, y)
 	plt.plot(X, [func(x, *params) for x in X])
-	print("m is {}, x is {} using {} data points".format(params[0], params[1], (i+1)*5))
+	print("m is {}, c is {} using {} data points".format(params[0], params[1], (i+1)*5))
 plt.show()
 
 
 # JUST TESTING THE PREDICTION
 
 
+# v = open("./Data_new/59dot9.txt", "r")
+# count = 0
+# time_s = []
+# temp = []
+# for line in v:
+# 	if count < 30:
+#
+# 		count+=1
+# 		time_s.append(count)
+# 		t = line.split(" ")
+# 		# print(t)
+# 		T_float = float(t[0])
+# 		temp.append(T_float)
+# print(temp)
+#
+# def find_gradient(temp):
+# 	def func(x, m, c):
+# 		return m*x + c
+#
+# 	time = np.linspace(1,30, 30)
+# 	print("time is", time)
+# 	params, extras = curve_fit(func, time[:20], temp[:20])
+# 	return params[0]
+#
+# print(find_gradient(temp))
+#
+# # m is 26.847307126026752, x is 28.905414702084453 using 20 data points
+#
+# temp = 26.847307126026752 * 0.969417293233 + 28.905414702084453
+#
+# print(temp)
