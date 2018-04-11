@@ -8,7 +8,7 @@ from scipy.optimize import curve_fit
 import math
 
 
-file = "10.txt"
+file = "22dot7.txt"
 f = open(file, "r")
 
 if file == "31dot3.txt":
