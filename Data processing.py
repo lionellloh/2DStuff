@@ -8,7 +8,7 @@ from scipy.optimize import curve_fit
 import math
 
 
-file = "22dot7.txt"
+file = "31dot3.txt"
 f = open(file, "r")
 
 if file == "31dot3.txt":
@@ -59,16 +59,22 @@ def func(x, a, b, c):
 def reverse(y, a, b, c):
 	return np.exp((y - c)/a)/b
 
-params, extras = curve_fit(func, x1[:25], x2[:25])
+# params, extras = curve_fit(func, x1[:25], x2[:25])
+
+#Celine sucks
+x1 = [26.25, 26.375, 26.437]
+
+params = np.polyfit(np.log(np.array(x1[:25])), np.array(x2[:25]), 1)
 print("params is", params)
 plt.scatter(x1, x2)
 x1 = np.linspace(1, 150, 150)
 # plt.plot(x1, [func(x, params[0], params[1], params[2], params[3], params[4]) for x in x1])
-plt.plot(x1, [func(x, *params) for x in x1])
+# plt.plot(x1, [func(x, *params) for x in x1])
+plt.plot(x1, [params[0]*np.log(x)+params[1] for x in x1])
 plt.axhline(real_temp, label = "Real Temperature: {} celsius". format(real_temp))
-plt.axvline(reverse(real_temp, *params), label = "Optimal Time Value: {} seconds".format(round(reverse(real_temp, *params),2)))
-plt.axvline(reverse(real_temp+1.5, *params), label = "Limit a {} seconds".format(round(reverse(real_temp+1.5, *params),2)))
-plt.axvline(reverse(real_temp-1.5, *params), label = "Limit b {} seconds".format(round(reverse(real_temp-1.5, *params),2)))
+# plt.axvline(reverse(real_temp, *params), label = "Optimal Time Value: {} seconds".format(round(reverse(real_temp, *params),2)))
+# plt.axvline(reverse(real_temp+1.5, *params), label = "Limit a {} seconds".format(round(reverse(real_temp+1.5, *params),2)))
+# plt.axvline(reverse(real_temp-1.5, *params), label = "Limit b {} seconds".format(round(reverse(real_temp-1.5, *params),2)))
 plt.title("True temperature: {}".format(real_temp))
 
 legend = plt.legend(loc='best', shadow=True, fontsize='small')
@@ -159,5 +165,4 @@ plt.show()
 # plt.show()
 # print(plot_linear_regression(x_train, y_train, x_test, y_pred, bunchobject.feature_names[0], bunchobject.feature_names[3]))
 # plt.show()
-
 

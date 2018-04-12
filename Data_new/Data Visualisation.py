@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-v = open("./10dot7.txt", "r")
+v = open("./33dot5.txt", "r")
 count = 0
 time_s = []
 temp = []
