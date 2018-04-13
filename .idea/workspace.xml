@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b09862-5156-40e6-a55c-26c15e074165" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linear Regression_Exp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Numpy Polyfit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulated Annealing Algorithm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/panda_exp.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2D Biology-DW Report_v1.1.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data processing.py" afterPath="$PROJECT_DIR$/Data processing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data_new/Data Visualisation.py" afterPath="$PROJECT_DIR$/Data_new/Data Visualisation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Regression with Gradient Approach.py" afterPath="$PROJECT_DIR$/Regression with Gradient Approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulated Annealing Algorithm.py" afterPath="$PROJECT_DIR$/Simulated Annealing Algorithm.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Data processing.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Week 10 - machine learning.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Digital World/MachineLearning/Week 10 - machine learning.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2D Physics-DW Report Template.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2D Physics-DW Report Template.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data processing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="1624">
+              <caret line="165" column="41" lean-forward="false" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -36,8 +47,8 @@
       <file leaf-file-name="Regression with Gradient Approach.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Regression with Gradient Approach.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -45,14 +56,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simulated Annealing Algorithm.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Simulated Annealing Algorithm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simulated Annealing Algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +69,7 @@
       <file leaf-file-name="Numpy Polyfit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Numpy Polyfit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="405">
               <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -72,8 +81,8 @@
       <file leaf-file-name="Data Visualisation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_new/Data Visualisation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,9 +129,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>func</find>
       <find>values</find>
       <find>curve</find>
+      <find>func</find>
       <find>params</find>
     </findStrings>
     <dirStrings>
@@ -154,17 +163,20 @@
         <option value="$PROJECT_DIR$/Linear Regression_Exp.py" />
         <option value="$PROJECT_DIR$/Numpy Polyfit.py" />
         <option value="$PROJECT_DIR$/Data processing.py" />
-        <option value="$PROJECT_DIR$/Regression with Gradient Approach.py" />
         <option value="$PROJECT_DIR$/2D Biology-DW Report_v1.1.ipynb" />
-        <option value="$PROJECT_DIR$/Simulated Annealing Algorithm.py" />
         <option value="$PROJECT_DIR$/panda_exp.py" />
+        <option value="$PROJECT_DIR$/Simulated Annealing Algorithm.py" />
+        <option value="$PROJECT_DIR$/DW-bio_celine.ipynb" />
+        <option value="$PROJECT_DIR$/Regression with Gradient Approach.py" />
+        <option value="$PROJECT_DIR$/2D Physics-DW Report Template.ipynb" />
+        <option value="$PROJECT_DIR$/../Digital World/MachineLearning/Week 10 - machine learning.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="31" />
-    <option name="width" value="1324" />
+    <option name="x" value="25" />
+    <option name="y" value="23" />
+    <option name="width" value="1407" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectView">
@@ -194,6 +206,11 @@
               <item name="2DStuff" type="b2602c69:ProjectViewProjectNode" />
               <item name="2DStuff" type="462c0819:PsiDirectoryNode" />
               <item name="Data_new" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DStuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DStuff" type="462c0819:PsiDirectoryNode" />
+              <item name="PW-DW Submission" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,10 +364,10 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="31" width="1324" height="808" extended-state="0" />
+    <frame x="25" y="23" width="1407" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -503,14 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_new/Data Visualisation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finalized_model.sav">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -529,40 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numpy Polyfit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2D Biology-DW Report_v1.1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regression with Gradient Approach.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,17 +566,81 @@
         <state relative-caret-position="345">
           <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numpy Polyfit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DW-bio_celine.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PW-DW Submission/2D Physics-DW Report Template.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_new/Data Visualisation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Simulated Annealing Algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression with Gradient Approach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2D Physics-DW Report Template.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Digital World/MachineLearning/Week 10 - machine learning.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1624">
+          <caret line="165" column="41" lean-forward="false" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

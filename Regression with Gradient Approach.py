@@ -41,13 +41,14 @@ for i in range(len(files)):
 			T_float = float(t[0])
 			temp.append(T_float)
 
+
 	collated[files[i]] = [real_temp]
 	print(collated)
 	for j in range(5,30,5):
 		params, extras = curve_fit(func, time_s[:j], temp[:j])
 		# Plot the Temperature against time graph
-		# plt.scatter(time_s, temp)
-		# plt.plot(time_s, [func(x, *params) for x in time_s])
+		plt.scatter(time_s, temp)
+		plt.plot(time_s, [func(x, *params) for x in time_s])
 		print("for {} file,  {} data points: m = {}, c = {}".format(files[i], j, params[0], params[1]))
 		collated[files[i]].append(params[0])
 	# plt.figure(file)
